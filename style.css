@@ -19,6 +19,7 @@
     justify-content: space-between;
     align-items: center;
     height: 80px;
+    /* don't want this line border-bottom: #ffffff solid 4px; */
     
 }
 
@@ -42,8 +43,9 @@ ul {
 .main {
     flex: 1; 
     display: flex;
+    flex-direction: column;
     justify-content: center;
-    background-color: #1f2937;
+    background-color: #ffffff;
 }
 
 .top-main {
@@ -52,7 +54,8 @@ ul {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 100px 0;
+    padding: 100px 0;
+    border-bottom: #3882f6 solid 4px;
     
 }
 
@@ -71,11 +74,17 @@ ul {
     margin-right: 400px;
 }
 
-img {
+.test {
     width: 500px;
 }
 
-.sign-up {
+img {
+    width: 200px;
+    border-radius: 10px;
+    border: #3882f6 solid 4px;
+}
+
+.sign-up, .sign-up-bottom {
     padding: 5px 30px;
     border-radius: 10px;
     background-color: #3882f6;
@@ -97,6 +106,39 @@ h1 {
     margin: 0;
 }
 
+.squares {
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+}
+
+.square {
+    width: 200px;
+    text-align: center;
+}
+
+.middle-main {
+    padding: 100px;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+
+.middle-title {
+    color: #1f2937;
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.image-text {
+    color: #1f2937;
+    font-size: 18px;
+}
+
 .footer {
     display: flex;
     justify-content: center;
@@ -105,4 +147,53 @@ h1 {
     color: #f9faf8;
     background-color: #1f2937;
     padding: 20px 0;
+    border-top: #3882f6 solid 4px;
+}
+
+.bottom-main {
+    display: flex;
+    padding: 150px 300px;
+    align-items: center;
+    flex-direction: column;
+    font-size: 36px;
+    color: #1f2937;
+    background-color: #E5E7EB;
+}
+
+.quoter {
+    margin-top: 10px;
+    align-self: flex-end;
+    font-weight: bold;
+}
+
+.bottomer-main {
+    padding: 100px;
+    background-color: #3882f6;
+    padding: 100px 200px;
+    display: flex;
+    justify-content: space-between;
+    margin: 150px 400px;
+    border-radius: 15px;
+}
+
+.last-left {
+    color: #ffffff; 
+
+}
+
+.call-to-action {
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.sign-up-text {
+    font-size: 20px;
+}
+
+.sign-up-bottom {
+    padding: 5px 30px;
+    border-radius: 10px;
+    border: #E5E7EB solid 3px;
+    background-color: #3882f6;
+    color: #E5E7EB;
 }
