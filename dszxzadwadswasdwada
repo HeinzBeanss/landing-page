@@ -1,0 +1,23 @@
+[33mcommit 684d19a98ef8a5fd9af2ca7dc1c001935b9aabc4[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m)[m
+Author: David Bean <heinzbeansss@gmail.com>
+Date:   Mon Oct 11 02:08:41 2021 +0100
+
+    Completed all sections of the web page
+
+[33mcommit 9a0ea3ffe2381ffaeb4b410a6850bb5f80ab118b[m
+Author: David Bean <heinzbeansss@gmail.com>
+Date:   Sun Oct 10 23:43:40 2021 +0100
+
+    created the main part of the page successfully, two more sections to go.
+
+[33mcommit 01b9977872173ee2db05ec86a9791fde28543175[m
+Author: David Bean <heinzbeansss@gmail.com>
+Date:   Sun Oct 10 03:59:09 2021 +0100
+
+    Completed the header
+
+[33mcommit 51f24c357180d62507b6b930f2a2f42cb6c58f48[m
+Author: David Bean <heinzbeansss@gmail.com>
+Date:   Sun Oct 10 03:19:36 2021 +0100
+
+    Created directory for the website
